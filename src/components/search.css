@@ -1,0 +1,29 @@
+.search {
+  position: relative;
+  width: 300px;
+  height: 40px;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+}
+
+.search input {
+  flex: 1;
+  height: 100%;
+  color: #ffffff;
+  background: transparent;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+}
+
+.search input::placeholder {
+  color: #ffffff;
+}
+
+.search ion-icon {
+  margin-right: 10px; /* Adjust the margin to create space between icon and input */
+  color: #ffffff;
+}
